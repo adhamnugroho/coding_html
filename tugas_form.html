@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tugas form</title>
+	<style type="text/css">	
+		.alamat {
+			vertical-align: 60%;	
+		}
+	</style> 
+</head>
+<body>
+	<h2>Silahkan Isi Data Anda : </h2>
+	<form>
+		<table width="350" border="0">
+			<tr>
+				<td>
+					<label for="nama" >Nama</label>
+				</td>
+				<td> 
+					<label>:</label>
+					<input type="text" id="nama">
+				</td>
+			</tr>
+			<tr>
+				<td>	
+					<label >alamat</label>
+				</td>
+				<td align="">
+					<label class="alamat"> : </label>
+					<textarea ></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="telepon" >No Telp</label>
+				</td>
+				<td>
+					<label>:</label>
+					<input type="text" id="telepon">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="password" >Masukkan Password</label>
+				</td>
+				<td>
+					<label>:</label>
+					<input type="password" id="password">
+				</td>
+			</tr>
+		</table>
+	</form>
+
+	<p>Hobby Anda (Boleh lebih dari satu)</p>
+
+	<input type="checkbox" id="membaca">
+	<label for="membaca">membaca</label>
+	<br>
+	<input type="checkbox" id="olahraga">
+	<label for="olahraga">olahraga</label>
+	<br>
+	<input type="checkbox" id="nonton film">
+	<label for="nonton film">nonton film</label>
+	<br>
+	<input type="checkbox" name="travelling">
+	<label for="travelling">travelling</label>
+
+	<p>Jenis kelamin</p>
+
+	<input type="radio" id="laki - laki">
+	<label for="laki - laki">Laki - laki</label>
+	<br>
+	<input type="radio" id="perempuan">
+	<label for="perempuan">Perempuan</label>
+	<br>
+	<hr>
+	<input type="button" value="kirim">
+	<button type="reset">hapus</button>
+</body>
+</html>
